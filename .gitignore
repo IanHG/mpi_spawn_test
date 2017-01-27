@@ -1,4 +1,7 @@
 master
 printer
+spawn
 spawn_dir
 work_dir
+hostfile
+slurm*
