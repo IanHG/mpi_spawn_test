@@ -35,7 +35,7 @@ def main():
             # Take care of ranges ( - )
             if node.find("-") != -1:
                subrange = node.split("-");
-               for i in range(int(subrange[0]), int(subrange[1])):
+               for i in range(int(subrange[0]), int(subrange[1] ) + 1):
                   print prefix + str(i) + postfix;
             else:
                print prefix + node + postfix;
